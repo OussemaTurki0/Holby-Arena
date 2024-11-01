@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #fff;
+    background-color: #121212;
+}
+
+header {
+    background-image: url('cover.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.header-content h1 {
+    font-size: 4rem;
+    color: #e63946; /* Main red color */
+}
+
+.header-content p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+header button {
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #e63946;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+#features {
+    background-color: #333;
+    text-align: center;
+}
+
+#features h2, #about h2 {
+    color: #e63946;
+    margin-bottom: 20px;
+}
+
+.feature {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 15px;
+    background-color: #222;
+    border-radius: 8px;
+}
+
+.feature img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.feature h3 {
+    margin-top: 10px;
+    color: #e63946;
+}
+
+#about .team {
+    margin-top: 20px;
+}
+
+#about .team ul {
+    list-style: none;
+}
+
+#about .team a {
+    color: #e63946;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #222;
+    padding: 15px 0;
+    text-align: center;
+    color: #888;
+}
